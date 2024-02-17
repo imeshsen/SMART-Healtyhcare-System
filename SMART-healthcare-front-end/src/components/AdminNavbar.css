@@ -1,0 +1,37 @@
+.adminNavbar{
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    display: flex;
+}
+
+.adminNavbar .flex-left{
+    display: flex;
+    flex: 50%;
+    align-items: center;
+    justify-content: left;
+    padding-left: 25px;
+
+}
+
+.adminNavbar .flex-left .links-left{
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.adminNavbar .flex-right{
+    display: flex;
+    flex: 50%;
+    align-items: center;
+    justify-content: right;
+    padding-right: 25px;
+}
+
+.adminNavbar .flex-right .links-right{
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: bolder;
+    cursor: pointer;
+}

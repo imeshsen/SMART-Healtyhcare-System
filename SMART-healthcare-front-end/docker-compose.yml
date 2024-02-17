@@ -1,0 +1,16 @@
+version: "3"
+services:
+  smart-front:
+    container_name: smart-front
+    image: spims96/smart-front
+    ports:
+      - "3000:3000"
+    build:
+      context: .
+      dockerfile: Dockerfile   # Specify the Dockerfile's name
+    networks:
+      - net
+
+networks:
+  net:
+

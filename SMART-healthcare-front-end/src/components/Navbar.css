@@ -1,0 +1,30 @@
+.Navbar {
+  background-color: rgb(8, 90, 90);
+  width: 100vw;
+  height: 80px;
+  color: aliceblue;
+  display: flex;
+  flex-direction: row;
+}
+
+.Navbar .button {
+  padding-right: 10px;
+  padding-top: 20px;
+}
+
+.Navbar .button button {
+  border-radius: 5px;
+  cursor: pointer;
+  width: 10;
+  color: aliceblue;
+  background-color: crimson;
+  border: none;
+  padding: 10px;
+  flex: 1;
+}
+
+.Navbar .name {
+  flex: 1;
+  padding-left: 40%;
+  padding-top: 20px;
+}

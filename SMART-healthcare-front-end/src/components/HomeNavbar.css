@@ -1,0 +1,11 @@
+.homeNav{
+    width: 100vw;
+    height: 80px;
+    background-color: #2d3436;
+    text-align: center;
+    color: aliceblue;
+}
+
+.homeNav h1{
+    padding-top: 20px;
+}
